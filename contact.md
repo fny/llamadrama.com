@@ -1,0 +1,9 @@
+---
+title: Contact Us | Llama Drama
+description: Get in touch with the creators of Llama Drama
+permalink: /contact/
+---
+
+<br /><br />
+Get in touch! <a href="mailto:zookeeper@llamadrama.com" style="color: white;">zookeeper@llamadrama.com</a>
+<br /><br />

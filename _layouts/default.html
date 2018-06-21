@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="{{ page.title }}" />
+  <meta property="og:description"   content="{{ page.description }}" />
+  <meta property="og:image"         content="{{ site.url }}/llama-drama-wide.jpg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="theme-color" content="#b91d47">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+ <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=198030783947907&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="particles-js"></div>
+  <div class="wrapper">
+    <img src="/images/llamadrama.svg" class="llama-drama" alt="Llama Drama" /><span class="tm">TM</span>
+    <br />
+    <h1 class="lets-start-drama">Let's start some drama!!</h1>
+    <nav class="navigation">
+      <a class="button purchase-button" href="https://www.amazon.com/dp/B07D8MSQ33">Buy Now</a>
+      <a class="button contact-button" href="/instructions/">Instructions</a>
+      <a class="button contact-button" href="/contact/">Contact</a>
+    </nav>
+    {{ content }}
+    <footer>
+      <br />
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/llamadramagame"
+        data-layout="button_count"
+        data-action="like"
+        data-size="large"
+        data-show-faces="false"
+        data-share="true"></div>
+      <br /><br />
+      &copy; 2018 Yashar Brothers<br /><br />
+    </footer>
+  </div>
+
+
+  <script src="/js/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', '/js/particlesjs-config-3.json');
+  </script>
+</body>
+</html>
