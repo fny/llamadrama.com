@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LLama Drama! - An exciting and surprising shedding card game that you'll want to play again and again!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="particles-js"></div>
+
+<div class="wrapper">
+  <img src="images/llamadrama.svg" class="llama-drama" alt="Llama Drama" /><span class="tm">TM</span>
+  <br />
+  <h1>Let's start some drama!!</h1>
+  <div>
+    <div>
+      <img src="images/bigllama.png" class="big-llama" />
+    </div>
+    <div>
+
+    </div>
+  </div>
+  <footer>
+    <br />
+    &copy; 2018 Yashar Brothers<br /><br />
+    Get in touch! <a href="mailto:zookeeper@llamadrama.com" style="color: white;">zookeeper@llamadrama.com</a>
+  </footer>
+</div>
+  <script src="js/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particlesjs-config-3.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+
+
+  <style>
+  h1 {
+    font-family: arial;
+    text-transform: uppercase;
+    color: #ffff93;
+    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+    font-size: 3vh;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    display: border-box;
+    font-family: arial;
+  }
+  body {
+    background: #2c3db8;
+  }
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.tm {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  font-family: Arial;
+  color: white;
+  font-size: 10px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 40px;
+  right: 50%;
+  transform: translate(50%,0%);
+  text-align: center;
+}
+
+.big-llama {
+  max-width: 50vw;
+  max-height: 50vh;
+  height: auto;
+  width: auto;
+}
+footer {
+  color: white;
+}
+</style>
+</body>
+</html>
