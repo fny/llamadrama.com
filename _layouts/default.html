@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>{{ page.title }}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="canonical" href="{{ site.url}}{{ page.url }}" />
   <meta name="description" content="{{ page.description }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
@@ -16,7 +18,14 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#b91d47">
   <meta name="theme-color" content="#b91d47">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles2.css">
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-121414255-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- <script async src="/js/autotrack.js"></script> -->
 </head>
 <body>
  <!-- Load Facebook SDK for JavaScript -->
@@ -30,12 +39,14 @@
 }(document, 'script', 'facebook-jssdk'));</script>
   <div id="particles-js"></div>
   <div class="wrapper">
-    <img src="/images/llamadrama.svg" class="llama-drama" alt="Llama Drama" /><span class="tm">TM</span>
+    <a href="/">
+      <img src="/images/llamadrama.svg" class="llama-drama" alt="Llama Drama" /><span class="tm">TM</span>
+    </a>
     <br />
-    <h1 class="lets-start-drama">Let's start some drama!!</h1>
     <nav class="navigation">
-      <a class="button purchase-button" href="https://www.amazon.com/dp/B07D8MSQ33">Buy Now</a>
-      <a class="button contact-button" href="/instructions/">Instructions</a>
+      <a class="button purchase-button js-track-outbound-link" href="https://amzn.to/2xggP1f">Buy Now</a>
+      <a class="button contact-button" href="/instructions/">How to Play</a>
+      <a class="button contact-button" href="/reviews/">Reviews</a>
       <a class="button contact-button" href="/contact/">Contact</a>
     </nav>
     {{ content }}
@@ -58,6 +69,30 @@
   <script src="/js/particles.min.js"></script>
   <script>
     particlesJS.load('particles-js', '/js/particlesjs-config-3.json');
+    function trackOutboundLinks() {
+      var links = document.getElementsByClassName('js-track-outbound-link')
+      for (var i = 0; i < links.length; i++) {
+        var link = links[i]
+
+        link.onclick = function(event) {
+          var url = link.href
+          console.log('url')
+          if (typeof ga === 'undefined' || !ga.hasOwnProperty('loaded') || ga.loaded !== true) {
+            console.log('Analytics blocked')
+            window.location.href = url
+          }
+
+          ga('send', 'event', 'outbound', 'click', url, {
+            hitCallback: function() {
+              window.location.href = url
+            }
+          })
+          return false
+        }
+      }
+    }
+    trackOutboundLinks()
+
   </script>
 </body>
 </html>
