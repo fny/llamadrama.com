@@ -7,10 +7,8 @@
     "build": "eleventy"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Faraz Yashar",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "eleventy-sass": "^2.2.6"
   }
 }
