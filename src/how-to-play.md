@@ -31,8 +31,8 @@ It's easy! Play all your cards with a surprising twist at the end.
 
 Below is an example of a three-player game:
 
-<div style="text-align: center; margin-top: 1em;">
-  <img src="/assets/llama-drama-3-card.jpg" alt="Three cards face-down, three cards face-up, and five cards in hand." />
+<div style="margin-top: 1em;">
+  <img style="max-width: 600px;width:100%;" src="/assets/llama-drama-3-card.jpg" alt="Three cards face-down, three cards face-up, and five cards in hand." />
 </div>
 
 ## How to Win

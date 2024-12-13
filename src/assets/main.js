@@ -34,7 +34,23 @@ const createTriangle = () => {
   triangle.style.animationDuration = time + "s";
   triangle.style.animationDelay = "0s";
   document.body.appendChild(triangle);
-  setTimeout(() => triangle.remove(), time + 15000);
+  setTimeout(() => triangle.remove(), time * 1000 + 100);
 };
 
-setInterval(createTriangle, 400);
+function rate() {
+  if (window.innerWidth > 1600) {
+    return 400;
+  }
+  if (window.innerWidth > 1200) {
+    return 500;
+  }
+  if (window.innerWidth > 800) {
+    return 600;
+  }
+  if (window.innerWidth > 400) {
+    return 800;
+  }
+  return 1000;
+}
+
+setInterval(createTriangle, rate());

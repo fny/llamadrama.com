@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: ArialRounded;
+  src: url("/assets/arialrounded.ttf") format("truetype");
+}
+
 /* Book Condensed */
 @font-face {
   font-family: 'FBkCd';

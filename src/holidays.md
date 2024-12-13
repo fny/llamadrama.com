@@ -2,29 +2,9 @@
 layout: main.njk
 title: Llama Drama Holiday Edition!
 description: Video and text instructions for how to play Llama Drama Holiday Edition, a fun card game for all ages.
-style: instructions holiday
+style: instructions holidays
 holidays: true
 ---
-
-<style>
-  body, main {
-    background: rgb(0, 40, 0);
-  }
-  :root {
-    --max-width-instructions: 1000px;
-  }
-  img {
-    width: 70%;
-  }
-  .third-600 {
-    background: rgba(255, 255, 255, 0.2);
-    border: 0.5em solid rgb(0, 40, 0);
-    padding: 1em;
-  }
-  .buy-button {
-    background: rgb(200, 0, 0);
-  }
-</style>
 
 # How to Play - Holiday Edition!
 
@@ -100,7 +80,7 @@ Here are the differences in the holiday edition:
 Below is an example of a three-player game:
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="/assets/holiday-example.jpg" alt="Three cards face-down, three cards face-up, and five cards in hand." style="border: 1em solid rgba(255, 255, 255, 0.2)" />
+  <img style="width: 100%; max-width: 600px; src="/assets/holiday-example.jpg" alt="Three cards face-down, three cards face-up, and five cards in hand." style="border: 1em solid rgba(255, 255, 255, 0.2)" />
 </div>
 
 ## How to Win

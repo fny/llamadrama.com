@@ -34,6 +34,7 @@
       <label for="bmenub" class="burger pseudo button">More</label>
 
       <div class="menu">
+        <a href="/" class="pseudo button">Home</a>
         <a href="/how-to-play" class="pseudo button">How to Play</a>
         <a href="/holidays" class="pseudo button">Holiday Edition</a>
         {% if holidays %}
@@ -50,7 +51,10 @@
             {{content | safe}}
         </main>
       </div>
+
+      {% include "pet-llama.njk" %}
       <footer>&copy; 2025 Goozoo Games 🦙</footer>
-    </div>
+    </div>"
+
   </body>
 </html>
