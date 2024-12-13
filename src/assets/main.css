@@ -19,7 +19,7 @@
   --hero-message-padding: 0;
   --quotes-margin: 1em;
   --max-width: 1000px;
-  --max-width-instructions: 700px;
+  --max-width-instructions: 1000px;
 }
 
 p, li {

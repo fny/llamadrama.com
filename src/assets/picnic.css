@@ -560,6 +560,7 @@ nav .burger {
   }
 
   nav .burger~.menu {
+    color: #111;
       z-index: 11
   }
 
