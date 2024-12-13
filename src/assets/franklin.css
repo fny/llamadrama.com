@@ -1,0 +1,128 @@
+/* Book Condensed */
+@font-face {
+  font-family: 'FBkCd';
+  src: url('/assets/franklin/BkCd.otf') format('opentype');
+}
+
+/* Book Condensed Italic */
+@font-face {
+  font-family: 'FBkCdIt';
+  src: url('/assets/franklin/BkCdIt.otf') format('opentype');
+}
+
+/* Book Compressed */
+@font-face {
+  font-family: 'FBkCp';
+  src: url('/assets/franklin/BkCp.otf') format('opentype');
+}
+
+/* Book Compressed Italic */
+@font-face {
+  font-family: 'FBkCpIt';
+  src: url('/assets/franklin/BkCpIt.otf') format('opentype');
+}
+
+/* Book Extra Compressed */
+@font-face {
+  font-family: 'FBkXCp';
+  src: url('/assets/franklin/BkXCp.otf') format('opentype');
+}
+
+/* Book */
+@font-face {
+  font-family: 'FBook';
+  src: url('/assets/franklin/Book.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FBook';
+  src: url('/assets/franklin/Demi.otf') format('opentype');
+  font-weight: bold;
+}
+
+
+
+/* Book Italic */
+@font-face {
+  font-family: 'FBookIt';
+  src: url('/assets/franklin/BookIt.otf') format('opentype');
+}
+
+/* Demi */
+@font-face {
+  font-family: 'FDemi';
+  src: url('/assets/franklin/Demi.otf') format('opentype');
+}
+
+/* Demi Italic */
+@font-face {
+  font-family: 'FDemiIt';
+  src: url('/assets/franklin/DemiIt.otf') format('opentype');
+}
+
+/* Demi Condensed */
+@font-face {
+  font-family: 'FDmCd';
+  src: url('/assets/franklin/DmCd.otf') format('opentype');
+}
+
+/* Demi Condensed Italic */
+@font-face {
+  font-family: 'FDmCdIt';
+  src: url('/assets/franklin/DmCdIt.otf') format('opentype');
+}
+
+/* Demi Compressed */
+@font-face {
+  font-family: 'FDmCp';
+  src: url('/assets/franklin/DmCp.otf') format('opentype');
+}
+
+/* Demi Compressed Italic */
+@font-face {
+  font-family: 'FDmCpIt';
+  src: url('/assets/franklin/DmCpIt.otf') format('opentype');
+}
+
+/* Demi Extra Compressed */
+@font-face {
+  font-family: 'FDmXCp';
+  src: url('/assets/franklin/DmXCp.otf') format('opentype');
+}
+
+/* Heavy */
+@font-face {
+  font-family: 'FHvy';
+  src: url('/assets/franklin/Hvy.otf') format('opentype');
+}
+
+/* Heavy Italic */
+@font-face {
+  font-family: 'FHvyIt';
+  src: url('/assets/franklin/HvyIt.otf') format('opentype');
+}
+
+/* Medium Condensed */
+@font-face {
+  font-family: 'FMdCd';
+  src: url('/assets/franklin/MdCd.otf') format('opentype');
+}
+
+/* Medium Condensed Italic */
+@font-face {
+  font-family: 'FMdCdIt';
+  src: url('/assets/franklin/MdCdIt.otf') format('opentype');
+}
+
+/* Medium */
+@font-face {
+  font-family: 'FMed';
+  src: url('/assets/franklin/Med.otf') format('opentype');
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'FMedIt';
+  src: url('/assets/franklin/MedIt.otf') format('opentype');
+}

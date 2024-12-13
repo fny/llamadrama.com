@@ -1,6 +1,12 @@
-# LlamaDrama.com
+# Llama Drama 🦙
 
- - `bundle install` install the dependencies
- - `jeyll serve` serve the site
- - `jekyll build` build the site for export
- - Take the contents of the `_site` directory and place it in the FTP folder
+Buy it on Amazon!
+
+ - [Original Edition](https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07D8MSQ33/)
+ - [Holiday Edition](https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07ZMHP1MF/)
+
+## Development
+
+`npx @11ty/eleventy --serve` or `npm run dev` or `npm run build`
+
+Built with [11ty](https://www.11ty.dev/).

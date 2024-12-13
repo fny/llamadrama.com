@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {{title}}
+    </title>
+    <meta
+      name="description"
+      content="{{description}}"
+    />
+    <link rel="stylesheet" href="/assets/picnic.css" />
+    <link rel="stylesheet" href="/assets/main.css" />
+    <script src="/assets/main.js" defer></script>
+  </head>
+  <body class="{{style}}">
+    <nav>
+      <a href="/" class="brand">
+        <img class="logo" src="/assets/logo.svg" width="120px" />
+      </a>
+
+      <input id="bmenub" type="checkbox" class="show" />
+
+      {% if holidays %}
+        <a href="https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07ZMHP1MF/" class="burger button buy-button">Buy Now!</a>
+      {% else %}
+        <a href="https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07D8MSQ33/" class="burger button buy-button">Buy Now!</a>
+      {% endif %}
+      <label for="bmenub" class="burger pseudo button">More</label>
+
+      <div class="menu">
+        <a href="/how-to-play" class="pseudo button">How to Play</a>
+        <a href="/holidays" class="pseudo button">Holiday Edition</a>
+        {% if holidays %}
+          <a href="https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07ZMHP1MF/" class="button buy-button">Buy Now!</a>
+        {% else %}
+          <a href="https://www.amazon.com/Llama-Drama-Card-Game-Competitive/dp/B07D8MSQ33/" class="button buy-button">Buy Now!</a>
+        {% endif %}
+      </div>
+    </nav>
+
+    <div class="outer-wrap">
+      <div class="inner-wrap" style="margin: 0 auto; width: 100%;">
+        <main>
+            {{content | safe}}
+        </main>
+      </div>
+      <footer>&copy; 2025 Goozoo Games 🦙</footer>
+    </div>
+  </body>
+</html>
