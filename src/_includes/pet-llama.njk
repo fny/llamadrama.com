@@ -17,6 +17,7 @@
     padding: 0;
     text-align: center;
     font-family: 'ArialRounded', sans-serif;
+    user-select: none;
   }
   #pet-llama {
     display: grid;
@@ -360,7 +361,7 @@
   </svg>
 
 </div>
-<p id="pet-me">Pet me!</p>
+<p id="pet-me">Tap to pet me!</p>
 <script>
   const isMobile = window.matchMedia("(pointer: coarse)").matches ||
   /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
