@@ -11,28 +11,13 @@ style: instructions
 It's easy! Play all your cards with a surprising twist at the end.
 
 <div class="youtube">
-    <iframe
-      src="https://www.youtube.com/embed/cPc9AmZv7Yo"
-      title="YouTube video player"
-      frameborder="0"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-</div>
-
-## Setup
-
-1. Each player gets:
-    - 3 cards face down (don’t look!)
-    - 3 cards face up on top of those
-    - 5 cards to hold in their hand
-2. Put the leftover cards in a pile in the middle as the Draw Pile.
-3. Leave space next to it for a Discard Pile and a Play Pile.
-
-Below is an example of a three-player game:
-
-<div style="margin-top: 1em;">
-  <img style="max-width: 600px;width:100%;" src="/assets/llama-drama-3-card.jpg" alt="Three cards face down, three cards face up, and five cards in hand." />
+  <iframe
+    src="https://www.youtube.com/embed/cPc9AmZv7Yo"
+    title="YouTube video player"
+    frameborder="0"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ## Goal and Strategy
@@ -46,6 +31,10 @@ cards that improve your chances on the next turn.
 Deal each player 3 cards face down hidden from everyone, 3 cards face up on top of those, and 5 cards
 to hold hidden from other players. Put the leftover cards in a pile in the middle as the Draw Pile. Leave
 space next to it for a Discard Pile and a Play Pile. Below is an example of a 3-player game.
+
+<div style="margin-top: 1em;">
+  <img style="max-width: 600px;width:100%;" src="/assets/llama-drama-3-card.jpg" alt="Three cards face down, three cards face up, and five cards in hand." />
+</div>
 
 ## Game Play
 
