@@ -7,7 +7,6 @@ style: instructions
 
 # How to Play
 
-
 It's easy! Play all your cards with a surprising twist at the end.
 
 <div class="youtube">
@@ -23,8 +22,8 @@ It's easy! Play all your cards with a surprising twist at the end.
 ## Setup
 
 1. Each player gets:
-    - 3 cards face-down (don’t look!)
-    - 3 cards face-up on top of those
+    - 3 cards face down (don’t look!)
+    - 3 cards face up on top of those
     - 5 cards to hold in their hand
 2. Put the leftover cards in a pile in the middle as the Draw Pile.
 3. Leave space next to it for a Discard Pile and a Play Pile.
@@ -32,7 +31,7 @@ It's easy! Play all your cards with a surprising twist at the end.
 Below is an example of a three-player game:
 
 <div style="margin-top: 1em;">
-  <img style="max-width: 600px;width:100%;" src="/assets/llama-drama-3-card.jpg" alt="Three cards face-down, three cards face-up, and five cards in hand." />
+  <img style="max-width: 600px;width:100%;" src="/assets/llama-drama-3-card.jpg" alt="Three cards face down, three cards face up, and five cards in hand." />
 </div>
 
 ## How to Win

@@ -29,6 +29,10 @@ ol, ul {
   margin: 0;
 }
 
+ul {
+  padding: 20px;
+}
+
 
 h1 {
     text-shadow: #05092b 4px 4px 2px;
